@@ -1,4 +1,4 @@
--- # Exercice 4.3 : lecture des données avec le tri
+-- # Correction exercice 3.3 : lecture des données avec le tri
 
 -- 1. Affichez le nom, prénom des employés triés par le nom de façon décroissante (Z vers A)
 SELECT nom, prenom
