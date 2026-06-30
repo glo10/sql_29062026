@@ -18,7 +18,8 @@ ON c.rend_compte = m.no_employe;
 
 -- Jointure de droite (RIGHT JOIN)
 -- Il garde toutes les lignes de la table de droite
--- Jointure de droite et de gauche (FULL OUTER JOIN)
+-- Jointure de droite et de gauche (FULL OUTER JOIN) conserve toutes les lignes de la table de gauche et de droite
+-- Pour colonnes sans correspondance, on une absence de valeur caractérisé par NULL.
 SELECT p.nom_produit, c.nom_categorie
 FROM produits p
 FULL JOIN categories
