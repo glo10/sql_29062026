@@ -19,3 +19,11 @@ p.code_categorie AS sourceProduits,
 c.code_categorie AS sourceCategories 
 FROM produits p, categories c
 WHERE p.code_categorie = c.code_categorie;
+
+SELECT c.nom_categorie,
+p.nom_produit,
+p.code_categorie AS sourceProduits,
+c.code_categorie AS sourceCategories 
+FROM produits p, categories c
+WHERE p.code_categorie = c.code_categorie
+AND UPPER(nom_categorie) = 'BOISSONS' AND LOWER(nom_produit) LIKE 'c%';
