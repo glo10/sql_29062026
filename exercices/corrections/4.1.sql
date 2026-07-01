@@ -14,7 +14,7 @@ CREATE TABLE PAYS(
     nom_pays VARCHAR(60) NOT NULL,
     region INT NOT NULL
 );
--- 3. Table localité
+-- 3. Table localisation
 CREATE TABLE LOCALISATION(
     id_localisation INT NOT NULL,
     rue VARCHAR(150),
