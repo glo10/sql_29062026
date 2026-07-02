@@ -1,24 +1,36 @@
 # SQL : fondamentaux
 
-## Base de données
+## Continuer d'apprendre le SQL
 
-- [RATP](https://docs.google.com/uc?export=download&id=1G97RlE_qG3-N1p8t7qERbA1XOSk9_ZPv)
-- [Northwind](https://docs.google.com/uc?export=download&id=1MIWe-asVu92g2LUpg-ijtrkRTRGUExhD)
+### Avec des questions supplémentaires par niveau de difficulté
 
----
+- [Questions supplémentaires sur la base de donnée Northwind](./tp/)
 
-- [Suivi demi journée](https://docs.google.com/forms/d/e/1FAIpQLSfREBrrj8SRZKYiKjWEIbAUXxgH_kdb8DgajTBrgIoUHbvBZQ/viewform?usp=publish-editor) 
+### Avec les bases de données en ligne
+
+- [A partir des bases de données ORACLE en ligne et accessible depuis un navigateur Web](https://freesql.com/)
+
+### En jouant
+
+- [Jeux d'enquête avec des requêtes SQL](https://www.sqlnoir.com/cases)
+
+### Avec les bases de données public
+
+PS : nécessite l'installation d'un environnement SQL sur sa machine cf. [Installations](./0-installations/software/README.md)
+
+- [Bases de données Gouvernement français](https://www.data.gouv.fr/)
+- [Bases de données International](https://www.kaggle.com/datasets)
 
 ---
 
 ## Ressources
 
-- [Schema PDF détaillé de la base de données pour les exercices](./exercices/northwind/schema.pdfschema.pdf)
-- [Schema SVG graphique](./exercices/northwind/schema.svg)
 - [Toutes les corrections des exercices](./exercices/corrections/)
-- [Exercices supplémentaires RATP](./exercices/ratp/)
 - [Corrections RATP](./exercices/corrections/ratp/)
 - [Toutes les demos](./demos/)
+- [Exercices supplémentaires RATP](./exercices/ratp/)
+- [Schema PDF détaillé de la base de données pour les exercices](./exercices/northwind/schema.pdfschema.pdf)
+- [Schema SVG graphique](./exercices/northwind/schema.svg)
 - [Guide installation en local (sur votre ordinateurs)](#cadre-2--travail-en-local-sur-sa-machine-en-téléchargement-les-différents-logiciels)
 
 ---
@@ -61,22 +73,3 @@
 ## Installations selon le cadre de travail
 
 [Cf. installations](./0-installations/)
-
----
-
-## Continuer d'apprendre le SQL
-
-### Avec les bases de données en ligne
-
-- [A partir des bases de données ORACLE en ligne et accessible depuis un navigateur Web](https://freesql.com/)
-
-### En jouant
-
-- [Jeux d'enquête avec des requêtes SQL](https://www.sqlnoir.com/cases)
-
-### Avec les bases de données public
-
-PS : nécessite l'installation d'un environnement SQL sur sa machine cf. [Installations](./0-installations/software/README.md)
-
-- [Bases de données Gouvernement français](https://www.data.gouv.fr/)
-- [Bases de données International](https://www.kaggle.com/datasets)
